@@ -25,82 +25,82 @@ If you don't have python in your computer download it here and add the path to t
 
 
 Run the following command:<br>
-python get-pip.py
+python get-pip.py<br>
 2. Navigate to the directory contains the Flask application.<br>
 Make sure that your flask folder containing all the files required to run on your laptop.<br>
 Use these commands to navigate the command prompt:<br>
 To navigate one step back from the current path use:<br>
-cd..
+cd..<br>
 To move into the folder from the current path use:<br>
-cd<space>[specified_folder]
+cd<space>[specified_folder]<br>
 This is the path of my flask app on my laptop.<br>
 Using the above commands and navigate to the flask app folder.<br>
-( or )
+( or )<br>
 2. Clone the directory from GitHub.<br>
 If you don't have Git installed in your Computer download it here. Clone the repository by using the following commands. On running the first command a folder is created(clone) in your specified path.<br>
-git clone [link_of_repository]
-cd [repository_name]
+git clone [link_of_repository]<br>
+cd [repository_name]<br>
 3. Check the list of files in your flask app folder by using the following command:<br>
-dir
+dir<br>
 4. Install Virtual environment in your folder by using the following command:<br>
-pip install virtualenv
+pip install virtualenv<br>
 5. Name your virtual environment by using the following command:<br>
-virtualenv [virtual_environment_name]
+virtualenv [virtual_environment_name]<br>
 6. Navigate to your virtual environment folder and there you will see scripts folder.<br>
 That is the folder which contains all operations of Virtual environment and "activate" your venv by using the command:<br>
-activate
+activate<br>
 You will see a name on the left side of the terminal in brackets. By this, A virtual environment is activated.<br>
 ## Your Job is done…!!!🔥🔥🔥
 7. If you want to run your flask application in your local, you need to install all the requirements in the Virtual environment and these dependencies do not reflect the dependencies in your laptop.<br>
 Make sure, you must have a requirements text file which contains all dependencies along with the version.<br>
 8. Navigate back to the folder which contains requirements.txt file and install all the requirements in your virtual environment by using the following command:<br>
-pip install -r requirements.txt
+pip install -r requirements.txt<br>
 9. Run your python file to see your application by the following command:<br>
-python [python_file_name].py
+python [python_file_name].py<br>
 10. Copy the URL and paste in the Browser. You will see the flask application running in your localhost.<br>
 
 ## Create Virtual Environment using Anaconda prompt
 Open the Anaconda command prompt. Check your laptop is having Python as well as pip or not. Use the below commands to check them.you should write two hyphens as in the image. The latest version of python contains pip pre_installed only for older versions you need to install manually.<br>
 
-python - version
-pip - version
+python - version<br>
+pip - version<br>
 View the list of available version by using the following command:<br>
-conda search python
+conda search python<br>
 To install a specific version of python by using the following command:<br>
-conda install python=[version]
+conda install python=[version]<br>
 Install pip in Anaconda command prompt by using the following command:<br>
-conda install pip
+conda install pip<br>
 2. Navigate to the directory contains the Flask application.<br>
 Make sure that your flask folder containing all the files required to run on your laptop.<br>
 Use these commands to navigate the Anaconda command prompt:<br>
 To navigate one step back from the current path use:<br>
-cd..
+cd..<br>
 To move into the folder from the current path use:<br>
-cd<space>[specified_folder]
+cd<space>[specified_folder]<br>
 This is the path of my flask app on my laptop.<br>
 Using the above commands and navigate to the flask app folder.<br>
-( or )
+( or )<br>
 2. Clone the directory from GitHub.<br>
 If you don't have Git installed in your Computer download it here. Clone the repository by using the following commands. On running the first command a folder is created(clone) in your specified path.<br>
-git clone [link_of_repository]
-cd [repository_name]
+git clone [link_of_repository]<br>
+cd [repository_name]<br>
 3. Check the list of files in your flask app folder by using the following command:<br>
-dir
+dir<br>
 4. Install Virtual environment in your folder by using the following command:<br>
-conda install virtualenv
+conda install virtualenv<br>
 5. Name your virtual environment by using the following command:<br>
-virtualenv [virtual_environment_name]
+virtualenv [virtual_environment_name]<br>
 6. Navigate to your virtual environment folder and there you will see scripts folder.<br>
 That is the folder which contains all operations of Virtual environment and "activate" your venv by using the command:<br>
-activate
+activate<br>
 You will see a name on the left side of the terminal in brackets. By this, A virtual environment is activated.<br>
 ## Your Job is done…!!!🔥🔥🔥
 7. If you want to run your flask application in your local, you need to install all the requirements in the Virtual environment and these dependencies do not reflect the dependencies in your laptop.<br>
 Make sure, you must have a requirements text file which contains all dependencies along with the version.<br>
 8. Navigate back to the folder which contains requirements.txt file and install all the requirements in your virtual environment by using the following command:<br>
-pip install -r requirements.txt
+pip install -r requirements.txt<br>
 9. Run your python file to see your application by the following command:<br>
-python [python_file_name].py
+python [python_file_name].py<br>
 10. Copy the URL and paste in the Browser. You will see the flask application running in your localhost.<br>
 
 ## Create Virtual Environment using Ubuntu application
@@ -108,28 +108,28 @@ This method is mainly recommended to install packages and notebooks not to do pr
 Open Windows Powershell App and run it as administrator.<br>
 
 1.To do that First, enable the "Windows Subsystem for Linux" feature in Windows Powershell App by using the following command.<br>
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux<br>
 After it is prompted, Restart your laptop.<br>
 2. Download the Ubuntu App from the Windows Store. Ubuntu 20.04LTS is used in the article to show demo.<br>
 Lunch Ubuntu App and make sure that Windows PowerShell is opened. Because Ubuntu App is running on behalf of the Windows PowerShell App.<br>
 3. Set up a new user name and password and remember your password. It will be used further to install packages.<br>
 To paste the commands in Ubuntu use:<br>
-Right-click
-Ctrl +Shift+v
+Right-click<br>
+Ctrl +Shift+v<br>
 4. Update and upgrade your Ubuntu packages by using the following command:<br>
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade<br>
 5. Now, Install all the dependencies of python to create a virtual environment and pip in the Ubuntu App by using the following commands:<br>
-sudo apt-get install -y libstdc++6 python-setuptools
-sudo apt-get install python3-pip
+sudo apt-get install -y libstdc++6 python-setuptools<br>
+sudo apt-get install python3-pip<br>
 6. Clone the repository by using the following commands. On running the first command a folder is created(clone) in your specified path.<br>
-***git clone [link_of_repository]***
-***cd [repository_name]***
+***git clone [link_of_repository]***<br>
+***cd [repository_name]***<br>
 7. Install Virtual environment in the flask app folder by using the following command:<br>
-***sudo pip3 install virtualenv***
+***sudo pip3 install virtualenv***<br>
 8. Name your Virtual Environment accordingly by using the following command:<br>
-***virtualenv [virtual_environment_name]***
+***virtualenv [virtual_environment_name]***<br>
 9. Activate Virtual Environment by using the following command:<br>
-***source venv/bin/activate***
+***source venv/bin/activate***<br>
 ## Your Job is done…!!!🔥🔥🔥
 10. Install requirements in the virtual environment.<br>
 If you want to run your flask application in your local, you need to install all the requirements in the Virtual environment and these dependencies do not reflect the dependencies in your laptop.<br>
